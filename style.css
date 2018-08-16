@@ -1,0 +1,62 @@
+.body {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto 50% auto;
+}
+
+header {
+	height: 100px;
+}
+
+.container {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 25% 25% auto;
+}
+
+#banner_content {
+	grid-column-start: 3;
+	grid-row: 1 / span 2;
+}
+
+#build {
+	grid-column: 1 / span 2;
+	mask-image: url("img/computer_icon.png");
+	transition: .3s ease-in-out;
+}
+
+#build:hover {
+	transform: rotate(-15deg) scale(1.4);
+}
+
+#game {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	mask-image: url("img/controller.png");
+	transition: .3s ease-in-out;
+}
+
+#game:hover {
+	transform: rotate(-15deg) scale(1.4);
+}
+
+#about_me {
+	grid-column-start: 2;
+	grid-row-start: 2;
+	mask-image: url("img/beach_icon.png");
+	transition: .3s ease-in-out;
+	align-self
+}
+
+#about_me:hover {
+	transform: rotate(-15deg) scale(1.4);
+}
+
+#build,
+#game,
+#about_me,
+#banner_content {
+	justify-self: center;
+	align-self: center;
+}
+
