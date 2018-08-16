@@ -61,6 +61,7 @@ header {
 #about_me {
 	grid-column-start: 2;
 	grid-row-start: 2;
+	-webkit-mask-image: url("img/beach_icon.png");
 	mask-image: url("img/beach_icon.png");
 	transition: .3s ease-in-out;
 }
