@@ -39,6 +39,7 @@ header {
 
 #build {
 	grid-column: 2 / span 2;
+	-webkit-mask-image: url("img/computer_icon.png");
 	mask-image: url("img/computer_icon.png");
 	transition: .3s ease-in-out;
 }
@@ -50,6 +51,7 @@ header {
 #game {
 	grid-column-start: 3;
 	grid-row-start: 2;
+	-webkit-mask-image: url("img/controller.png");
 	mask-image: url("img/controller.png");
 	transition: .3s ease-in-out;
 }
