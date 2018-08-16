@@ -8,13 +8,18 @@ body {
 }
 
 header {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 	border-bottom: 1px solid white;
-	padding-bottom: 20px;
+	/*padding-bottom: 20px;*/
 }
 
 header a {
 	font-family: 'Henny Penny', cursive;
 	text-decoration: none;
+	justify-self: center;
+	align-self: center;
+	display: inline;
 }
 
 .container {
