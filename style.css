@@ -12,6 +12,11 @@ header {
 	padding-bottom: 20px;
 }
 
+header a {
+	font-family: 'Henny Penny', cursive;
+	text-decoration: none;
+}
+
 .container {
 	display: grid;
 	grid-gap: 20px;
