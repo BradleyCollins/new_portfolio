@@ -41,11 +41,11 @@ header {
 	grid-column: 2 / span 2;
 	-webkit-mask-image: url("img/computer_icon.png");
 	mask-image: url("img/computer_icon.png");
-	transition: .3s ease-in-out;
+	transition: .6s ease-in-out;
 }
 
 #build:hover {
-	transform: scale(1.4);
+	transform: rotate(360deg) scale(1.2);
 }
 
 #game {
@@ -53,11 +53,11 @@ header {
 	grid-row-start: 2;
 	-webkit-mask-image: url("img/controller.png");
 	mask-image: url("img/controller.png");
-	transition: .3s ease-in-out;
+	transition: .6s ease-in-out;
 }
 
 #game:hover {
-	transform: rotate(-15deg) scale(1.4);
+	transform: rotate(-360deg);
 }
 
 #about_me {
@@ -65,11 +65,11 @@ header {
 	grid-row-start: 2;
 	-webkit-mask-image: url("img/beach_icon.png");
 	mask-image: url("img/beach_icon.png");
-	transition: .3s ease-in-out;
+	transition: .6s ease-in-out;
 }
 
 #about_me:hover {
-	transform: rotate(15deg) scale(1.4);
+	transform: rotate(360deg);
 }
 
 #build,
