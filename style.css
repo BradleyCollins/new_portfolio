@@ -3,7 +3,7 @@ body {
 	grid-template-columns: auto;
 	grid-template-rows: 50px 600px 50px;
 	margin: 0;
-	background: url("img/stars.png");
+	background: url("img/lights.jpg");
 	background-size: cover no-repeat;
 }
 
@@ -15,11 +15,13 @@ header {
 }
 
 header a {
-	font-family: 'Henny Penny', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
 	text-decoration: none;
 	justify-self: center;
 	align-self: center;
 	display: inline;
+	color: white;
 }
 
 .container {
@@ -48,13 +50,14 @@ header a {
 #banner_content p {
 	font-size: 23px;
 	margin-top: 0;
-	font-family: 'Henny Penny', cursive;
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Henny Penny', cursive;*/
 }
 
 #build {
 	grid-column: 2 / span 2;
-	-webkit-mask-image: url("img/computer_icon.png");
-	mask-image: url("img/computer_icon.png");
+	-webkit-mask-image: url("img/build2.png");
+	mask-image: url("img/build2.png");
 	transition: .6s ease-in-out;
 }
 
@@ -65,8 +68,8 @@ header a {
 #game {
 	grid-column-start: 3;
 	grid-row-start: 2;
-	-webkit-mask-image: url("img/controller.png");
-	mask-image: url("img/controller.png");
+	-webkit-mask-image: url("img/xbox_c.png");
+	mask-image: url("img/xbox_c.png");
 	transition: .6s ease-in-out;
 }
 
@@ -77,8 +80,8 @@ header a {
 #about_me {
 	grid-column-start: 2;
 	grid-row-start: 2;
-	-webkit-mask-image: url("img/beach_icon.png");
-	mask-image: url("img/beach_icon.png");
+	-webkit-mask-image: url("img/beach2.png");
+	mask-image: url("img/beach2.png");
 	transition: .6s ease-in-out;
 }
 
