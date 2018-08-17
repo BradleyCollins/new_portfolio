@@ -3,14 +3,16 @@ body {
 	grid-template-columns: auto;
 	grid-template-rows: 50px 600px 50px;
 	margin: 0;
-	background: url("img/lights.jpg");
-	background-size: cover no-repeat;
+	/*background: url("img/lights.jpg");
+	background-size: cover no-repeat;*/
+	background-color: #2e5949;
 }
 
 header {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	border-bottom: 1px solid white;
+	background-color: #20382f;
 	/*padding-bottom: 20px;*/
 }
 
@@ -41,17 +43,21 @@ header a {
 }
 
 #banner_content h1 {
-	font-size: 60px;
+	font-size: 100px;
 	margin-bottom: 0;
 	font-family: 'Henny Penny', cursive;
 /*	font-family: 'Monoton', cursive;*/
 }
 
 #banner_content p {
-	font-size: 23px;
+	font-size: 36px;
 	margin-top: 0;
-	font-family: 'Roboto', sans-serif;
-	/*font-family: 'Henny Penny', cursive;*/
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Henny Penny', cursive;
+}
+
+.gifs {
+	height: 150px;
 }
 
 #build {
@@ -105,6 +111,7 @@ footer {
 	width: 100%;
 	height: 50px;
 	color: white;
+	background-color: #20382f;
 }
 
 #copy_text {
