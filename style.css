@@ -1,7 +1,7 @@
 body {
 	display: grid;
 	grid-template-columns: auto;
-	grid-template-rows: 50px 838px 50px;
+	grid-template-rows: 887px 50px;
 	margin: 0;
 /*	background-color: #2e5949;*/
 }
@@ -10,8 +10,6 @@ header {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	border-bottom: 1px solid white;
-/*	background-color: #20382f;*/
-	/*padding-bottom: 20px;*/
 }
 
 header a {
@@ -28,6 +26,7 @@ header a {
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: 25% 25% auto;
+	grid-template-rows: repeat(2, 1fr);
 /*	margin-top: 30px;*/
 	background: url("img/beach_night.jpg");
 	background-size: cover;
@@ -112,7 +111,7 @@ header a {
 
 footer {
 	border-top: 1px solid white;
-	position: fixed;
+/*	position: fixed;*/
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -127,7 +126,7 @@ footer {
 
 @media only screen and (max-width: 1440px) {
 	body {
-		grid-template-rows: 50px 613px 50px;
+		grid-template-rows: 655px 50px;
 	}
 	#banner_content h1 {
 		font-size: 85px;
