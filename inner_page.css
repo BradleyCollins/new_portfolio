@@ -1,0 +1,42 @@
+body {
+	display: grid;
+	grid-template-rows: 50px 887px 50px;
+	margin: 0;
+}
+
+header {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	border-bottom: 1px solid white;
+}
+
+header a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	justify-self: center;
+	align-self: center;
+	display: inline;
+	color: black;
+}
+
+.container {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 35% auto;
+	grid-template-rows: repeat(3, 1fr);
+/*	margin-top: 30px;*/
+	background: url("img/beach_night.jpg");
+	background-size: cover;
+
+}
+
+.container img {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	justify-self: center;
+	align-self: center;
+	width: 500px;
+
+
+}
