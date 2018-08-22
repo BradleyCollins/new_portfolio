@@ -41,6 +41,7 @@ header a {
 
 .banner_image {
 	mask-image: url("img/build3.png");
+	-webkit-mask-image: url("img/build3.png");;
 }
 
 #middle_row_1 {
