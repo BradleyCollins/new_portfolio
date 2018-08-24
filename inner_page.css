@@ -49,8 +49,8 @@ header a {
 }
 
 .banner_image {
-	mask-image: url("img/build3.png");
-	-webkit-mask-image: url("img/build3.png");;
+/*	mask-image: url("img/build3.png");
+	-webkit-mask-image: url("img/build3.png");;*/
 }
 
 #middle_row_1 {
@@ -117,6 +117,20 @@ footer p {
 		grid-template-rows: 50px 300px 50px;
 	}
 	.banner_image {
-		width: 100px;
+		width: 200px;
+	}
+	.container {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+	.container h1 {
+		grid-column-start: 1;
+		grid-row-start: 1;
+		font-size: 23px;
+	}
+	.container img {
+		grid-column-start: 1;
+		grid-row-start: 2;
+
 	}
 }
