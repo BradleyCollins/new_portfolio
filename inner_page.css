@@ -22,14 +22,26 @@ header a {
 }
 
 header .active {
-	/*border: 2px dotted black;*/
-	padding: 5px 5px 5px 5px;
-	background-color: black;
-	color: white;
+	outline: 6px dotted black;
+	box-shadow: 0 0 0 6px #fff;
+	animation: 1s animateBorder infinite;
+	padding: 3px 3px 3px 3px;
+}
 
+@keyframes animateBorder {
+	to {
+		outline-color: #fff;
+		box-shadow: 0 0 0 6px black;
+	}
 }
 header a:hover {
-	box-shadow: inset 0 0 0 25px red;
+	-webkit-transform:rotateY(180deg);
+  	-moz-transform:rotateY(180deg);
+  	-o-transform:rotateY(180deg);
+  	-ms-transform:rotateY(180deg);
+  	background-color: black;
+  	color: white;
+  	padding: 10px;
 }
 
 .container {
@@ -130,6 +142,7 @@ footer {
 footer p {
 	text-align: center;
 }
+
 
 @media only screen and (max-width: 500px) {
 	.body {
